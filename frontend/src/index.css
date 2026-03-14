@@ -1,111 +1,425 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@500;600;700&display=swap');
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+/* ───────────────── GLOBAL RESET ───────────────── */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
+html,
 body {
-  margin: 0;
+    height: 100%;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background .35s ease, color .35s ease;
 }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+
+/* ───────────────── LIGHT THEME ───────────────── */
+
+:root {
+
+    --bg-primary: #ffffff;
+    --bg-secondary: #f3f4f6;
+
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+
+    --accent: #2563eb;
+    --border: #e5e7eb;
+
+    /* neon */
+    --neon: #008f24;
+    --neon-bright: #00b82e;
+    --neon-glow: rgba(0, 143, 36, .28);
+    --neon-subtle: rgba(0, 143, 36, .07);
+    --neon-border: rgba(0, 143, 36, .2);
+
+    /* fonts */
+    --font-gaming: 'Orbitron', monospace;
+    --font-ui: 'Rajdhani', system-ui, sans-serif;
+
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+
+/* ───────────────── DARK THEME ───────────────── */
+
+.dark {
+
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+
+    --text-primary: #f9fafb;
+    --text-secondary: #9ca3af;
+
+    --accent: #3b82f6;
+    --border: #334155;
+
+    /* neon */
+    --neon: #00FF41;
+    --neon-bright: #1aff55;
+    --neon-glow: rgba(0, 255, 65, .32);
+    --neon-subtle: rgba(0, 255, 65, .07);
+    --neon-border: rgba(0, 255, 65, .18);
+
+    /* fonts — same values, inherited via :root but explicit for clarity */
+    --font-gaming: 'Orbitron', monospace;
+    --font-ui: 'Rajdhani', system-ui, sans-serif;
+
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
+
+/* ───────────────── LAYOUT ───────────────── */
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-primary);
+    color: var(--text-primary);
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+.main-content {
+    flex: 1;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    padding: 30px 20px;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+
+/* ───────────────── GLASS NAVBAR ───────────────── */
+
+.glass-nav {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    transition: background .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+
+.dark .glass-nav {
+    background: rgba(15, 23, 42, 0.75);
+}
+
+/* scrolled state — tighter glass + neon bottom glow */
+.glass-nav.scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom-color: var(--neon-border);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+.dark .glass-nav.scrolled {
+    background: rgba(15, 23, 42, 0.96);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ───────────────── NAV LINKS ───────────────── */
+
+.nav-link {
+    position: relative;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 0;
+    transition: color .25s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--neon);
+}
+
+/* animated neon underline */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background: var(--neon);
+    border-radius: 2px;
+    transition: width .3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+
+/* ───────────────── DROPDOWN MENU ───────────────── */
+
+@keyframes dropdownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* each item slides in from left with stagger */
+@keyframes itemSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 10px);
+    width: 186px;
+    background: var(--bg-primary);
+    border: 1px solid var(--neon-border);
+    border-radius: 12px;
+    padding: 6px;
+    box-shadow:
+        0 16px 48px rgba(0, 0, 0, 0.14),
+        0 0 0 1px var(--neon-border),
+        0 4px 16px var(--neon-glow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px) scale(0.97);
+    transform-origin: top left;
+    transition: opacity .22s ease, transform .22s cubic-bezier(.22, .68, 0, 1.2), visibility .22s;
+    z-index: 200;
+}
+
+.dark .dropdown-menu {
+    box-shadow:
+        0 16px 48px rgba(0, 0, 0, 0.5),
+        0 0 0 1px var(--neon-border),
+        0 4px 20px var(--neon-glow);
+}
+
+.dropdown-menu.dropdown-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+/* stagger each item as menu opens */
+.dropdown-menu.dropdown-open .dropdown:nth-child(1) {
+    animation: itemSlide .18s ease .02s both;
+}
+
+.dropdown-menu.dropdown-open .dropdown:nth-child(2) {
+    animation: itemSlide .18s ease .07s both;
+}
+
+.dropdown-menu.dropdown-open .dropdown:nth-child(3) {
+    animation: itemSlide .18s ease .12s both;
+}
+
+.dropdown-menu.dropdown-open .dropdown:nth-child(4) {
+    animation: itemSlide .18s ease .17s both;
+}
+
+/* item base */
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border-radius: 8px;
+    border-left: 2px solid transparent;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: color .18s, background .18s, border-color .18s, padding-left .18s;
+}
+
+/* neon dot that pops in on hover */
+.dropdown::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--neon);
+    opacity: 0;
+    flex-shrink: 0;
+    transform: scale(0);
+    transition: opacity .18s, transform .18s;
+}
+
+.dropdown:hover,
+.dropdown.active {
+    background: var(--neon-subtle);
+    color: var(--neon);
+    border-left-color: var(--neon);
+    padding-left: 10px;
+}
+
+.dropdown:hover::before,
+.dropdown.active::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* kept for backward compat */
+.animate-dropdown {
+    animation: dropdownFade .18s ease;
+}
+
+
+/* ───────────────── FUTURISTIC BUTTON ───────────────── */
+
+.btn-neon {
+    font-family: var(--font-gaming);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: #040a06;
+    background: var(--neon);
+    box-shadow: 0 0 12px var(--neon-glow);
+    position: relative;
+    overflow: hidden;
+    transition: background .2s, box-shadow .2s, transform .15s;
+}
+
+.btn-neon:hover {
+    background: var(--neon-bright);
+    box-shadow: 0 0 20px var(--neon), 0 0 40px var(--neon-glow);
+    transform: translateY(-1px);
+}
+
+.btn-neon:active {
+    transform: translateY(0);
+}
+
+/* shimmer sweep */
+.btn-neon::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transform: translateX(-100%);
+    transition: transform .45s ease;
+}
+
+.btn-neon:hover::before {
+    transform: translateX(100%);
+}
+
+
+/* ───────────────── THEME BUTTON ───────────────── */
+
+.btn-theme {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid var(--neon-border);
+    background: var(--neon-subtle);
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: border-color .2s, color .2s, box-shadow .2s, transform .25s;
+}
+
+.btn-theme:hover {
+    border-color: var(--neon);
+    color: var(--neon);
+    box-shadow: 0 0 10px var(--neon-glow);
+    transform: rotate(20deg);
+}
+
+.btn-theme svg {
+    width: 15px;
+    height: 15px;
+}
+
+/* alias — kept so nothing else breaks */
+.theme-btn {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg-secondary);
+    cursor: pointer;
+    transition: .25s;
+}
+
+.theme-btn:hover {
+    background: var(--neon-subtle);
+    border-color: var(--neon-border);
+}
+
+
+/* ───────────────── CARD UI ───────────────── */
+
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    transition: .25s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+}
+
+
+/* ───────────────── SCROLLBAR ───────────────── */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+
+/* ───────────────── SMOOTH UI TRANSITIONS ───────────────── */
+
+a,
+button {
+    transition: all .2s ease;
 }

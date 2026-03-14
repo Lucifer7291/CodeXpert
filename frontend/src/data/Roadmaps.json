@@ -1,0 +1,388 @@
+{
+    "page": {
+        "tag": "Learning Roadmaps",
+        "title": "Your path to",
+        "highlight": "mastery",
+        "sub": "Step-by-step learning paths built by experts. Follow a roadmap and never wonder what to learn next.",
+        "searchPlaceholder": "Search roadmaps..."
+    },
+    "filters": {
+        "categories": [
+            "All",
+            "Web Dev",
+            "DSA",
+            "DevOps",
+            "Mobile",
+            "AI/ML",
+            "Security"
+        ],
+        "durations": [
+            "All Durations",
+            "1-3 Months",
+            "3-6 Months",
+            "6-12 Months"
+        ]
+    },
+    "roadmaps": [
+        {
+            "id": 1,
+            "title": "Frontend Developer Roadmap",
+            "desc": "From HTML basics to React, TypeScript and performance optimization. Everything you need to land a frontend job.",
+            "category": "Web Dev",
+            "level": "Beginner",
+            "duration": "3-6 Months",
+            "steps": 24,
+            "enrolled": 8200,
+            "xp": 4800,
+            "completionRate": 72,
+            "author": "Sneha Iyer",
+            "emoji": "🌐",
+            "grad": "from-blue-500/20 to-cyan-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/roadmaps/frontend",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React"
+            ],
+            "milestones": [
+                "HTML & CSS",
+                "JavaScript",
+                "React",
+                "TypeScript",
+                "Deploy"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Backend Developer Roadmap",
+            "desc": "Node.js, Express, databases, REST APIs, auth and deployment — become a production-ready backend developer.",
+            "category": "Web Dev",
+            "level": "Intermediate",
+            "duration": "3-6 Months",
+            "steps": 28,
+            "enrolled": 6400,
+            "xp": 5200,
+            "completionRate": 65,
+            "author": "Rohan Gupta",
+            "emoji": "⚙️",
+            "grad": "from-lime-500/20 to-green-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/roadmaps/backend",
+            "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "REST API"
+            ],
+            "milestones": [
+                "Node.js",
+                "Databases",
+                "Auth",
+                "APIs",
+                "Deploy"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "DSA for Interviews Roadmap",
+            "desc": "Arrays to graphs — a structured path through every data structure and algorithm topic needed to crack FAANG interviews.",
+            "category": "DSA",
+            "level": "Intermediate",
+            "duration": "3-6 Months",
+            "steps": 32,
+            "enrolled": 11500,
+            "xp": 6400,
+            "completionRate": 58,
+            "author": "Karthik Rao",
+            "emoji": "🧠",
+            "grad": "from-purple-500/20 to-pink-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/roadmaps/dsa-interviews",
+            "tags": [
+                "Arrays",
+                "Trees",
+                "Graphs",
+                "DP"
+            ],
+            "milestones": [
+                "Arrays",
+                "Linked Lists",
+                "Trees",
+                "Graphs",
+                "DP"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "DevOps Engineer Roadmap",
+            "desc": "Linux, Docker, Kubernetes, CI/CD, AWS and monitoring — the complete path to becoming a DevOps engineer.",
+            "category": "DevOps",
+            "level": "Advanced",
+            "duration": "6-12 Months",
+            "steps": 36,
+            "enrolled": 4100,
+            "xp": 7200,
+            "completionRate": 48,
+            "author": "Arjun Mehta",
+            "emoji": "☁️",
+            "grad": "from-sky-500/20 to-blue-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/roadmaps/devops",
+            "tags": [
+                "Docker",
+                "Kubernetes",
+                "AWS",
+                "CI/CD"
+            ],
+            "milestones": [
+                "Linux",
+                "Docker",
+                "K8s",
+                "AWS",
+                "Monitoring"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Full Stack Developer Roadmap",
+            "desc": "Frontend + backend + deployment — the complete guide to becoming a full stack developer from zero.",
+            "category": "Web Dev",
+            "level": "Beginner",
+            "duration": "6-12 Months",
+            "steps": 48,
+            "enrolled": 14200,
+            "xp": 9600,
+            "completionRate": 44,
+            "author": "Rahul Verma",
+            "emoji": "🔥",
+            "grad": "from-orange-500/20 to-red-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/roadmaps/fullstack",
+            "tags": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Deploy"
+            ],
+            "milestones": [
+                "Frontend",
+                "Backend",
+                "Database",
+                "Auth",
+                "Deploy"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Machine Learning Roadmap",
+            "desc": "Python, statistics, supervised learning, neural networks, model deployment — a complete ML learning path.",
+            "category": "AI/ML",
+            "level": "Intermediate",
+            "duration": "6-12 Months",
+            "steps": 40,
+            "enrolled": 7800,
+            "xp": 8000,
+            "completionRate": 52,
+            "author": "Dr. Ananya Sharma",
+            "emoji": "🤖",
+            "grad": "from-fuchsia-500/20 to-purple-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/roadmaps/machine-learning",
+            "tags": [
+                "Python",
+                "scikit-learn",
+                "TensorFlow",
+                "ML"
+            ],
+            "milestones": [
+                "Python",
+                "Statistics",
+                "ML Models",
+                "Deep Learning",
+                "Deploy"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Android Developer Roadmap",
+            "desc": "Kotlin, Jetpack Compose, MVVM architecture, Firebase and Play Store publishing — build production Android apps.",
+            "category": "Mobile",
+            "level": "Beginner",
+            "duration": "3-6 Months",
+            "steps": 26,
+            "enrolled": 3600,
+            "xp": 5200,
+            "completionRate": 61,
+            "author": "Vikram Das",
+            "emoji": "📱",
+            "grad": "from-emerald-500/20 to-green-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/roadmaps/android",
+            "tags": [
+                "Kotlin",
+                "Jetpack Compose",
+                "MVVM",
+                "Firebase"
+            ],
+            "milestones": [
+                "Kotlin",
+                "UI",
+                "Architecture",
+                "Firebase",
+                "Publish"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Cybersecurity Roadmap",
+            "desc": "Networking basics, Linux, ethical hacking, penetration testing, CTFs and bug bounty — become a security engineer.",
+            "category": "Security",
+            "level": "Intermediate",
+            "duration": "6-12 Months",
+            "steps": 34,
+            "enrolled": 5200,
+            "xp": 6800,
+            "completionRate": 50,
+            "author": "Nisha Kapoor",
+            "emoji": "🔐",
+            "grad": "from-red-500/20 to-rose-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/roadmaps/cybersecurity",
+            "tags": [
+                "Linux",
+                "Networking",
+                "Pen Testing",
+                "CTF"
+            ],
+            "milestones": [
+                "Networking",
+                "Linux",
+                "Hacking",
+                "CTF",
+                "Bug Bounty"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "React Native Developer Roadmap",
+            "desc": "Build cross-platform iOS and Android apps with React Native, Expo, Redux and native module integration.",
+            "category": "Mobile",
+            "level": "Intermediate",
+            "duration": "3-6 Months",
+            "steps": 22,
+            "enrolled": 2900,
+            "xp": 4400,
+            "completionRate": 67,
+            "author": "Aditya Singh",
+            "emoji": "📲",
+            "grad": "from-cyan-500/20 to-sky-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/roadmaps/react-native",
+            "tags": [
+                "React Native",
+                "Expo",
+                "Redux",
+                "Mobile"
+            ],
+            "milestones": [
+                "React Native",
+                "Navigation",
+                "State",
+                "APIs",
+                "Publish"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Competitive Programming Roadmap",
+            "desc": "From basic problem solving to advanced graph theory, segment trees and competitive contest strategies.",
+            "category": "DSA",
+            "level": "Advanced",
+            "duration": "6-12 Months",
+            "steps": 38,
+            "enrolled": 4800,
+            "xp": 7600,
+            "completionRate": 42,
+            "author": "Siddharth Bhat",
+            "emoji": "⚔️",
+            "grad": "from-indigo-500/20 to-violet-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/roadmaps/competitive-programming",
+            "tags": [
+                "CP",
+                "Codeforces",
+                "Graphs",
+                "Segment Trees"
+            ],
+            "milestones": [
+                "Basics",
+                "Greedy",
+                "DP",
+                "Graphs",
+                "Advanced"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "AWS Cloud Architect Roadmap",
+            "desc": "EC2, S3, Lambda, RDS, VPC and more — structured path to passing the AWS Solutions Architect certification.",
+            "category": "DevOps",
+            "level": "Intermediate",
+            "duration": "3-6 Months",
+            "steps": 30,
+            "enrolled": 5600,
+            "xp": 6000,
+            "completionRate": 55,
+            "author": "Suresh Menon",
+            "emoji": "🏛️",
+            "grad": "from-amber-500/20 to-orange-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/roadmaps/aws-architect",
+            "tags": [
+                "AWS",
+                "EC2",
+                "S3",
+                "Lambda"
+            ],
+            "milestones": [
+                "IAM",
+                "Compute",
+                "Storage",
+                "Networking",
+                "Cert"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Python Developer Roadmap",
+            "desc": "Core Python, OOP, file handling, APIs, databases and automation — go from beginner to professional Python dev.",
+            "category": "AI/ML",
+            "level": "Beginner",
+            "duration": "1-3 Months",
+            "steps": 20,
+            "enrolled": 9400,
+            "xp": 4000,
+            "completionRate": 78,
+            "author": "Dr. Meera Pillai",
+            "emoji": "🐍",
+            "grad": "from-teal-500/20 to-green-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/roadmaps/python",
+            "tags": [
+                "Python",
+                "OOP",
+                "APIs",
+                "Automation"
+            ],
+            "milestones": [
+                "Basics",
+                "OOP",
+                "Files & APIs",
+                "Databases",
+                "Projects"
+            ]
+        }
+    ]
+}

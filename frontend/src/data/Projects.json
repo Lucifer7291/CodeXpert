@@ -1,0 +1,346 @@
+{
+    "page": {
+        "tag": "Practice Projects",
+        "title": "Build real",
+        "highlight": "projects",
+        "sub": "Hands-on projects to practice your skills. Build, submit and earn XP. Add them to your portfolio.",
+        "searchPlaceholder": "Search projects..."
+    },
+    "filters": {
+        "categories": [
+            "All",
+            "Web Dev",
+            "DSA",
+            "DevOps",
+            "Mobile",
+            "AI/ML",
+            "Security"
+        ],
+        "difficulties": [
+            "All Levels",
+            "Beginner",
+            "Intermediate",
+            "Advanced"
+        ]
+    },
+    "projects": [
+        {
+            "id": 1,
+            "title": "Full Stack Todo App",
+            "desc": "Build a complete todo app with React frontend, Node.js/Express backend, MongoDB database, JWT auth and CRUD operations.",
+            "category": "Web Dev",
+            "difficulty": "Beginner",
+            "duration": "3-5 days",
+            "xp": 300,
+            "coins": 0,
+            "submissions": 2800,
+            "author": "Rahul Verma",
+            "emoji": "✅",
+            "grad": "from-blue-500/20 to-cyan-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/projects/fullstack-todo",
+            "tags": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "JWT"
+            ],
+            "skills": [
+                "Frontend",
+                "Backend",
+                "Database",
+                "Auth"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Real-time Chat Application",
+            "desc": "Create a real-time chat app using Socket.io, React and Node.js with rooms, online users and message history.",
+            "category": "Web Dev",
+            "difficulty": "Intermediate",
+            "duration": "5-7 days",
+            "xp": 500,
+            "coins": 0,
+            "submissions": 1600,
+            "author": "Sneha Iyer",
+            "emoji": "💬",
+            "grad": "from-green-500/20 to-teal-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/projects/realtime-chat",
+            "tags": [
+                "Socket.io",
+                "React",
+                "Node.js"
+            ],
+            "skills": [
+                "WebSockets",
+                "Frontend",
+                "Backend"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "LeetCode-style Problem Tracker",
+            "desc": "Build a DSA problem tracker with filters by topic, difficulty, status. Store progress in localStorage or a backend.",
+            "category": "DSA",
+            "difficulty": "Intermediate",
+            "duration": "4-6 days",
+            "xp": 450,
+            "coins": 0,
+            "submissions": 1200,
+            "author": "Karthik Rao",
+            "emoji": "🧩",
+            "grad": "from-purple-500/20 to-pink-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/projects/problem-tracker",
+            "tags": [
+                "React",
+                "LocalStorage",
+                "DSA"
+            ],
+            "skills": [
+                "Frontend",
+                "State Management",
+                "UI Design"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "CI/CD Pipeline with GitHub Actions",
+            "desc": "Set up a complete CI/CD pipeline — linting, testing, Docker build, push to registry and deploy to a cloud server.",
+            "category": "DevOps",
+            "difficulty": "Advanced",
+            "duration": "7-10 days",
+            "xp": 700,
+            "coins": 0,
+            "submissions": 640,
+            "author": "Arjun Mehta",
+            "emoji": "🔄",
+            "grad": "from-sky-500/20 to-blue-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/projects/cicd-pipeline",
+            "tags": [
+                "GitHub Actions",
+                "Docker",
+                "CI/CD"
+            ],
+            "skills": [
+                "DevOps",
+                "Docker",
+                "Cloud"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "E-commerce Store with Payments",
+            "desc": "Build a full e-commerce app — product listings, cart, Razorpay payment integration, order history and admin panel.",
+            "category": "Web Dev",
+            "difficulty": "Advanced",
+            "duration": "10-14 days",
+            "xp": 900,
+            "coins": 0,
+            "submissions": 880,
+            "author": "Deepika Joshi",
+            "emoji": "🛒",
+            "grad": "from-orange-500/20 to-yellow-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/projects/ecommerce-store",
+            "tags": [
+                "React",
+                "Node.js",
+                "Razorpay",
+                "MongoDB"
+            ],
+            "skills": [
+                "Full Stack",
+                "Payments",
+                "Admin Panel"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Expense Tracker Mobile App",
+            "desc": "Build an Android expense tracker app with Kotlin, Room database, charts for spending categories and monthly reports.",
+            "category": "Mobile",
+            "difficulty": "Intermediate",
+            "duration": "5-7 days",
+            "xp": 500,
+            "coins": 0,
+            "submissions": 920,
+            "author": "Vikram Das",
+            "emoji": "💸",
+            "grad": "from-emerald-500/20 to-green-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/projects/expense-tracker",
+            "tags": [
+                "Kotlin",
+                "Room DB",
+                "Android"
+            ],
+            "skills": [
+                "Mobile",
+                "Database",
+                "Charts"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "AI Image Caption Generator",
+            "desc": "Use a pre-trained vision model to generate captions for uploaded images. Build a Flask API and React frontend.",
+            "category": "AI/ML",
+            "difficulty": "Advanced",
+            "duration": "7-10 days",
+            "xp": 750,
+            "coins": 0,
+            "submissions": 560,
+            "author": "Dr. Ananya Sharma",
+            "emoji": "🖼️",
+            "grad": "from-fuchsia-500/20 to-purple-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/projects/image-caption",
+            "tags": [
+                "Python",
+                "Flask",
+                "React",
+                "AI/ML"
+            ],
+            "skills": [
+                "ML Model",
+                "API",
+                "Frontend"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "URL Shortener Service",
+            "desc": "Build a URL shortener like Bitly — custom slugs, click analytics, expiry dates, QR code generation and a dashboard.",
+            "category": "Web Dev",
+            "difficulty": "Beginner",
+            "duration": "3-5 days",
+            "xp": 320,
+            "coins": 0,
+            "submissions": 2100,
+            "author": "Rohan Gupta",
+            "emoji": "🔗",
+            "grad": "from-lime-500/20 to-green-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/projects/url-shortener",
+            "tags": [
+                "Node.js",
+                "MongoDB",
+                "React"
+            ],
+            "skills": [
+                "Backend",
+                "Database",
+                "Analytics"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Penetration Testing Report Tool",
+            "desc": "Build a web app where security testers can document findings, CVSS scores, PoC screenshots and generate PDF reports.",
+            "category": "Security",
+            "difficulty": "Advanced",
+            "duration": "8-12 days",
+            "xp": 800,
+            "coins": 0,
+            "submissions": 380,
+            "author": "Nisha Kapoor",
+            "emoji": "🛡️",
+            "grad": "from-red-500/20 to-rose-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/projects/pentest-report",
+            "tags": [
+                "Security",
+                "React",
+                "PDF",
+                "Node.js"
+            ],
+            "skills": [
+                "Security",
+                "Full Stack",
+                "PDF Generation"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Weather App with Forecast",
+            "desc": "Build a weather app using OpenWeatherMap API — current weather, 5-day forecast, location search and geolocation.",
+            "category": "Web Dev",
+            "difficulty": "Beginner",
+            "duration": "2-3 days",
+            "xp": 200,
+            "coins": 0,
+            "submissions": 3400,
+            "author": "Sneha Iyer",
+            "emoji": "🌤️",
+            "grad": "from-cyan-500/20 to-sky-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/projects/weather-app",
+            "tags": [
+                "React",
+                "REST API",
+                "Geolocation"
+            ],
+            "skills": [
+                "Frontend",
+                "API Integration",
+                "UI Design"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Kubernetes Microservices Deployment",
+            "desc": "Deploy a 3-service microservices app on Kubernetes — pods, services, ingress, configmaps, secrets and HPA scaling.",
+            "category": "DevOps",
+            "difficulty": "Advanced",
+            "duration": "10-14 days",
+            "xp": 950,
+            "coins": 0,
+            "submissions": 290,
+            "author": "Arjun Mehta",
+            "emoji": "⚙️",
+            "grad": "from-teal-500/20 to-cyan-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/projects/k8s-microservices",
+            "tags": [
+                "Kubernetes",
+                "Docker",
+                "Microservices"
+            ],
+            "skills": [
+                "K8s",
+                "DevOps",
+                "Scaling"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Movie Recommendation System",
+            "desc": "Build a content-based and collaborative filtering movie recommender using Python, Pandas and a React frontend.",
+            "category": "AI/ML",
+            "difficulty": "Intermediate",
+            "duration": "6-8 days",
+            "xp": 600,
+            "coins": 0,
+            "submissions": 740,
+            "author": "Dr. Meera Pillai",
+            "emoji": "🎬",
+            "grad": "from-violet-500/20 to-indigo-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/projects/movie-recommender",
+            "tags": [
+                "Python",
+                "Pandas",
+                "React",
+                "ML"
+            ],
+            "skills": [
+                "ML Model",
+                "Data Processing",
+                "Frontend"
+            ]
+        }
+    ]
+}

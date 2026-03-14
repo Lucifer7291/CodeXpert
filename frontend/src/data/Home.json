@@ -1,0 +1,303 @@
+{
+    "hero": {
+        "badge": "India's #1 Gamified Coding Platform",
+        "typingWords": [
+            "Web Development",
+            "Data Structures",
+            "DevOps & Cloud",
+            "System Design",
+            "AI/ML",
+            "Game Development"
+        ],
+        "headline": "Master",
+        "subHeadline": "while having fun",
+        "description": "Earn XP, unlock ranks, complete missions and convert learning into CodeCoins. Real skills. Real rewards.",
+        "descriptionHighlight": "CodeCoins",
+        "ctaPrimary": {
+            "label": "Start for Free →",
+            "path": "/register"
+        },
+        "ctaSecondary": {
+            "label": "Browse Courses",
+            "path": "/courses"
+        },
+        "stats": [
+            {
+                "value": 12000,
+                "suffix": "+",
+                "label": "Students Enrolled",
+                "icon": "👨‍💻"
+            },
+            {
+                "value": 150,
+                "suffix": "+",
+                "label": "Courses Available",
+                "icon": "📚"
+            },
+            {
+                "value": 98,
+                "suffix": "%",
+                "label": "Completion Rate",
+                "icon": "✅"
+            }
+        ]
+    },
+    "features": {
+        "tag": "Why CodeXpert",
+        "title": "Everything you need to",
+        "highlight": "level up",
+        "sub": "Not just another course platform. CodeXpert turns learning into a game you actually want to play every day.",
+        "items": [
+            {
+                "icon": "🎮",
+                "title": "Gamified Learning",
+                "desc": "Earn XP, level up your rank, complete missions and convert XP into CodeCoins."
+            },
+            {
+                "icon": "🏆",
+                "title": "Leaderboard & Ranks",
+                "desc": "Compete globally, climb the leaderboard and show off your coding badge."
+            },
+            {
+                "icon": "📚",
+                "title": "Structured Courses",
+                "desc": "Video lessons, PDFs, notes and quizzes with time-limited access per course."
+            },
+            {
+                "icon": "🗺️",
+                "title": "Learning Roadmaps",
+                "desc": "Step-by-step roadmaps for Web Dev, DSA, DevOps and more — by experts."
+            },
+            {
+                "icon": "💻",
+                "title": "Live Code Playground",
+                "desc": "Write, run and test code right in the browser with our Monaco-powered editor."
+            },
+            {
+                "icon": "🪙",
+                "title": "CodeCoins Wallet",
+                "desc": "Buy courses with CodeCoins. Earn via XP, referrals, missions or top up."
+            }
+        ]
+    },
+    "howItWorks": {
+        "tag": "How It Works",
+        "title": "Go from zero to",
+        "highlight": "job-ready",
+        "sub": "A simple 4-step journey designed to keep you motivated, rewarded and always moving forward.",
+        "ctaStrip": {
+            "heading": "Ready to start your journey?",
+            "sub": "Join 12,000+ developers already learning on CodeXpert.",
+            "label": "Get Started Free →",
+            "path": "/register"
+        },
+        "steps": [
+            {
+                "step": "01",
+                "icon": "✦",
+                "title": "Create Your Account",
+                "desc": "Sign up in seconds with email, Google or GitHub — no credit card needed.",
+                "detail": [
+                    "Free forever plan",
+                    "Instant access to free courses",
+                    "Google & GitHub OAuth"
+                ],
+                "color": "from-blue-500/15 to-cyan-500/10",
+                "border": "border-blue-500/20 dark:border-blue-400/20",
+                "accent": "text-blue-500 dark:text-blue-400",
+                "dot": "bg-blue-500 dark:bg-blue-400"
+            },
+            {
+                "step": "02",
+                "icon": "◈",
+                "title": "Choose Your Path",
+                "desc": "Pick a structured roadmap or dive into individual courses aligned with your goal.",
+                "detail": [
+                    "Web Dev, DSA, DevOps paths",
+                    "Admin-curated roadmaps",
+                    "Beginner to advanced"
+                ],
+                "color": "from-purple-500/15 to-pink-500/10",
+                "border": "border-purple-500/20 dark:border-purple-400/20",
+                "accent": "text-purple-500 dark:text-purple-400",
+                "dot": "bg-purple-500 dark:bg-purple-400"
+            },
+            {
+                "step": "03",
+                "icon": "⚡",
+                "title": "Learn & Earn XP",
+                "desc": "Every lesson, quiz and mission rewards you with XP. Climb ranks as you grow.",
+                "detail": [
+                    "XP for every action",
+                    "Daily missions",
+                    "Rank up from Bronze → Diamond"
+                ],
+                "color": "from-yellow-500/15 to-orange-500/10",
+                "border": "border-yellow-500/20 dark:border-yellow-400/20",
+                "accent": "text-yellow-600 dark:text-yellow-400",
+                "dot": "bg-yellow-500 dark:bg-yellow-400"
+            },
+            {
+                "step": "04",
+                "icon": "🏅",
+                "title": "Get Certified",
+                "desc": "Complete a course, earn your certificate and share it to land that dream job.",
+                "detail": [
+                    "Verified PDF certificate",
+                    "Shareable link",
+                    "LinkedIn-ready"
+                ],
+                "color": "from-green-500/15 to-emerald-500/10",
+                "border": "border-green-500/20 dark:border-[#00FF41]/20",
+                "accent": "text-green-600 dark:text-[#00FF41]",
+                "dot": "bg-green-500 dark:bg-[#00FF41]"
+            }
+        ]
+    },
+    "courses": {
+        "tag": "Top Courses",
+        "title": "Popular right now",
+        "viewAllLabel": "View all →",
+        "viewAllPath": "/courses",
+        "items": [
+            {
+                "title": "Full Stack Web Development",
+                "tag": "Bestseller",
+                "xp": 2400,
+                "coins": 499,
+                "level": "Beginner",
+                "emoji": "🌐",
+                "grad": "from-blue-600/20 to-cyan-600/10",
+                "path": "/courses"
+            },
+            {
+                "title": "Data Structures & Algorithms",
+                "tag": "Hot 🔥",
+                "xp": 3200,
+                "coins": 699,
+                "level": "Intermediate",
+                "emoji": "🧠",
+                "grad": "from-purple-600/20 to-pink-600/10",
+                "path": "/courses"
+            },
+            {
+                "title": "DevOps & Cloud Engineering",
+                "tag": "New ✨",
+                "xp": 2800,
+                "coins": 599,
+                "level": "Advanced",
+                "emoji": "☁️",
+                "grad": "from-green-600/20 to-teal-600/10",
+                "path": "/courses"
+            }
+        ]
+    },
+    "gamification": {
+        "tag": "Gamification System",
+        "title": "Learn. Earn.",
+        "highlight": "Level Up.",
+        "desc": "Every lesson, quiz and mission rewards you with XP. Convert XP into CodeCoins and spend them on premium courses. Top the leaderboard and earn exclusive ranks.",
+        "tags": [
+            "🎯 Daily Missions",
+            "⚡ XP System",
+            "🏆 Leaderboard",
+            "🪙 CodeCoins",
+            "🎖️ Rank Badges"
+        ],
+        "widget": {
+            "progressLabel": "Your Progress",
+            "rank": "🏅 Gold II",
+            "playerInitial": "U",
+            "playerName": "You",
+            "xpCurrent": 8450,
+            "xpTotal": 10000,
+            "xpPercent": 84.5,
+            "nextRank": "Platinum",
+            "missionsLabel": "Today's Missions",
+            "missions": [
+                {
+                    "label": "Complete a Quiz",
+                    "xp": "+100 XP",
+                    "done": true
+                },
+                {
+                    "label": "Watch 3 Lessons",
+                    "xp": "+150 XP",
+                    "done": true
+                },
+                {
+                    "label": "Submit a Project",
+                    "xp": "+200 XP",
+                    "done": false
+                }
+            ]
+        }
+    },
+    "statsBar": {
+        "items": [
+            {
+                "value": 12000,
+                "suffix": "+",
+                "label": "Students Enrolled"
+            },
+            {
+                "value": 150,
+                "suffix": "+",
+                "label": "Courses Available"
+            },
+            {
+                "value": 98,
+                "suffix": "%",
+                "label": "Completion Rate"
+            },
+            {
+                "value": 50,
+                "suffix": "+",
+                "label": "Expert Instructors"
+            }
+        ]
+    },
+    "testimonials": {
+        "tag": "Testimonials",
+        "title": "Loved by",
+        "highlight": "developers",
+        "sub": "Join thousands of learners who levelled up their careers with CodeXpert.",
+        "items": [
+            {
+                "name": "Aarav Singh",
+                "role": "Frontend Dev @ Flipkart",
+                "text": "CodeXpert's gamified system kept me hooked. Went from zero to job-ready in 4 months!",
+                "avatar": "AS",
+                "stars": 5
+            },
+            {
+                "name": "Priya Sharma",
+                "role": "SDE Intern @ Razorpay",
+                "text": "The roadmaps are insanely well structured. Followed the DSA path and cracked my interviews.",
+                "avatar": "PS",
+                "stars": 5
+            },
+            {
+                "name": "Rohan Mehta",
+                "role": "Freelance Developer",
+                "text": "CodeCoins is genius — earning coins by learning and spending on courses. Love every bit of it.",
+                "avatar": "RM",
+                "stars": 5
+            }
+        ]
+    },
+    "cta": {
+        "badge": "Free to join • No credit card",
+        "title": "Ready to start your",
+        "highlight": "coding quest?",
+        "sub": "Join 12,000+ developers. Earn XP from day one.",
+        "primary": {
+            "label": "Create Free Account →",
+            "path": "/register"
+        },
+        "secondary": {
+            "label": "Explore Courses",
+            "path": "/courses"
+        }
+    }
+}

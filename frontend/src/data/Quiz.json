@@ -1,0 +1,292 @@
+{
+    "page": {
+        "tag": "Practice Quizzes",
+        "title": "Test your",
+        "highlight": "knowledge",
+        "sub": "Topic-wise quizzes to sharpen your skills. Attempt, earn XP and track your progress.",
+        "searchPlaceholder": "Search quizzes..."
+    },
+    "filters": {
+        "categories": [
+            "All",
+            "Web Dev",
+            "DSA",
+            "DevOps",
+            "AI/ML",
+            "Database",
+            "Security"
+        ],
+        "difficulties": [
+            "All Levels",
+            "Beginner",
+            "Intermediate",
+            "Advanced"
+        ]
+    },
+    "quizzes": [
+        {
+            "id": 1,
+            "title": "JavaScript Fundamentals Quiz",
+            "desc": "Test your core JavaScript knowledge — data types, closures, hoisting, event loop, prototypes and ES6+ features.",
+            "category": "Web Dev",
+            "difficulty": "Beginner",
+            "questions": 20,
+            "duration": "20 min",
+            "xp": 150,
+            "attempts": 12400,
+            "avgScore": 74,
+            "author": "Sneha Iyer",
+            "emoji": "📜",
+            "grad": "from-yellow-500/20 to-orange-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/quiz/javascript-fundamentals",
+            "tags": [
+                "JavaScript",
+                "ES6",
+                "Core Concepts"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "React & Hooks Deep Dive Quiz",
+            "desc": "useState, useEffect, useRef, useMemo, context, performance optimisation and component lifecycle questions.",
+            "category": "Web Dev",
+            "difficulty": "Intermediate",
+            "questions": 25,
+            "duration": "25 min",
+            "xp": 200,
+            "attempts": 8600,
+            "avgScore": 68,
+            "author": "Priya Nair",
+            "emoji": "⚛️",
+            "grad": "from-cyan-500/20 to-blue-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/quiz/react-hooks",
+            "tags": [
+                "React",
+                "Hooks",
+                "Performance"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "DSA Arrays & Strings Quiz",
+            "desc": "Two pointers, sliding window, prefix sums, string manipulation and array traversal problems and MCQs.",
+            "category": "DSA",
+            "difficulty": "Intermediate",
+            "questions": 20,
+            "duration": "30 min",
+            "xp": 200,
+            "attempts": 15200,
+            "avgScore": 62,
+            "author": "Karthik Rao",
+            "emoji": "🔢",
+            "grad": "from-purple-500/20 to-pink-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/quiz/dsa-arrays-strings",
+            "tags": [
+                "Arrays",
+                "Strings",
+                "Two Pointers"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Docker & Containers Quiz",
+            "desc": "Images, containers, volumes, networking, docker-compose, Dockerfile best practices and container lifecycle questions.",
+            "category": "DevOps",
+            "difficulty": "Beginner",
+            "questions": 15,
+            "duration": "15 min",
+            "xp": 120,
+            "attempts": 5400,
+            "avgScore": 71,
+            "author": "Arjun Mehta",
+            "emoji": "🐳",
+            "grad": "from-sky-500/20 to-blue-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/quiz/docker-containers",
+            "tags": [
+                "Docker",
+                "Containers",
+                "DevOps"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "SQL & Database Design Quiz",
+            "desc": "JOINs, indexes, normalization, transactions, ACID properties, window functions and query optimisation MCQs.",
+            "category": "Database",
+            "difficulty": "Intermediate",
+            "questions": 20,
+            "duration": "25 min",
+            "xp": 180,
+            "attempts": 9100,
+            "avgScore": 65,
+            "author": "Suresh Menon",
+            "emoji": "🗃️",
+            "grad": "from-amber-500/20 to-yellow-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/quiz/sql-database",
+            "tags": [
+                "SQL",
+                "Database",
+                "ACID"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Python Basics Quiz",
+            "desc": "Data types, loops, functions, OOP, list comprehensions, file I/O and standard library questions for beginners.",
+            "category": "AI/ML",
+            "difficulty": "Beginner",
+            "questions": 20,
+            "duration": "20 min",
+            "xp": 150,
+            "attempts": 18300,
+            "avgScore": 78,
+            "author": "Dr. Ananya Sharma",
+            "emoji": "🐍",
+            "grad": "from-green-500/20 to-teal-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/quiz/python-basics",
+            "tags": [
+                "Python",
+                "OOP",
+                "Basics"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Binary Trees & BST Quiz",
+            "desc": "Traversals, height, balanced trees, BST operations, LCA, serialisation and tree DP pattern questions.",
+            "category": "DSA",
+            "difficulty": "Intermediate",
+            "questions": 20,
+            "duration": "30 min",
+            "xp": 200,
+            "attempts": 7800,
+            "avgScore": 60,
+            "author": "Siddharth Bhat",
+            "emoji": "🌳",
+            "grad": "from-emerald-500/20 to-green-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/quiz/binary-trees",
+            "tags": [
+                "Trees",
+                "BST",
+                "Traversal"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "CSS & Responsive Design Quiz",
+            "desc": "Flexbox, Grid, specificity, pseudo-elements, media queries, animations and CSS architecture questions.",
+            "category": "Web Dev",
+            "difficulty": "Beginner",
+            "questions": 20,
+            "duration": "20 min",
+            "xp": 150,
+            "attempts": 10500,
+            "avgScore": 76,
+            "author": "Deepika Joshi",
+            "emoji": "🎨",
+            "grad": "from-pink-500/20 to-rose-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/quiz/css-responsive",
+            "tags": [
+                "CSS",
+                "Flexbox",
+                "Grid"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Cybersecurity Fundamentals Quiz",
+            "desc": "OWASP Top 10, encryption, hashing, common vulnerabilities, network security and secure coding practice questions.",
+            "category": "Security",
+            "difficulty": "Intermediate",
+            "questions": 20,
+            "duration": "25 min",
+            "xp": 180,
+            "attempts": 4200,
+            "avgScore": 63,
+            "author": "Nisha Kapoor",
+            "emoji": "🔐",
+            "grad": "from-red-500/20 to-rose-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/quiz/cybersecurity-fundamentals",
+            "tags": [
+                "Security",
+                "OWASP",
+                "Encryption"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Dynamic Programming Quiz",
+            "desc": "Memoisation, tabulation, knapsack, LCS, LIS, matrix chain and interval DP pattern recognition questions.",
+            "category": "DSA",
+            "difficulty": "Advanced",
+            "questions": 20,
+            "duration": "40 min",
+            "xp": 300,
+            "attempts": 5600,
+            "avgScore": 52,
+            "author": "Karthik Rao",
+            "emoji": "♟️",
+            "grad": "from-indigo-500/20 to-violet-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/quiz/dynamic-programming",
+            "tags": [
+                "DP",
+                "Memoization",
+                "Tabulation"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "AWS Cloud Services Quiz",
+            "desc": "EC2, S3, Lambda, RDS, VPC, IAM, CloudFront and core AWS architecture and pricing model questions.",
+            "category": "DevOps",
+            "difficulty": "Intermediate",
+            "questions": 25,
+            "duration": "30 min",
+            "xp": 220,
+            "attempts": 6300,
+            "avgScore": 66,
+            "author": "Arjun Mehta",
+            "emoji": "🏛️",
+            "grad": "from-orange-500/20 to-amber-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/quiz/aws-cloud",
+            "tags": [
+                "AWS",
+                "Cloud",
+                "Architecture"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Machine Learning Concepts Quiz",
+            "desc": "Supervised vs unsupervised learning, overfitting, regularisation, evaluation metrics, neural networks and gradient descent.",
+            "category": "AI/ML",
+            "difficulty": "Advanced",
+            "questions": 25,
+            "duration": "35 min",
+            "xp": 280,
+            "attempts": 7100,
+            "avgScore": 58,
+            "author": "Dr. Meera Pillai",
+            "emoji": "🤖",
+            "grad": "from-fuchsia-500/20 to-purple-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/quiz/machine-learning",
+            "tags": [
+                "ML",
+                "Neural Networks",
+                "Metrics"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,291 @@
+{
+    "page": {
+        "tag": "Study Notes",
+        "title": "Quick revision",
+        "highlight": "notes",
+        "sub": "Concise, well-structured notes for every topic. Download, read and revise anytime.",
+        "searchPlaceholder": "Search notes..."
+    },
+    "filters": {
+        "categories": [
+            "All",
+            "Web Dev",
+            "DSA",
+            "DevOps",
+            "AI/ML",
+            "Database",
+            "Security"
+        ],
+        "formats": [
+            "All Formats",
+            "PDF",
+            "Markdown",
+            "Cheatsheet"
+        ]
+    },
+    "notes": [
+        {
+            "id": 1,
+            "title": "JavaScript ES6+ Complete Cheatsheet",
+            "desc": "Arrow functions, destructuring, spread, rest, modules, classes, promises and all modern JS features in one place.",
+            "category": "Web Dev",
+            "format": "Cheatsheet",
+            "difficulty": "Beginner",
+            "pages": 4,
+            "downloads": 8400,
+            "xp": 50,
+            "author": "Sneha Iyer",
+            "date": "10 Jan 2025",
+            "emoji": "📝",
+            "grad": "from-yellow-500/20 to-orange-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/notes/js-es6-cheatsheet",
+            "tags": [
+                "JavaScript",
+                "ES6",
+                "Cheatsheet"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "React Hooks Reference Guide",
+            "desc": "useState, useEffect, useRef, useMemo, useCallback, useContext — every hook with syntax, examples and gotchas.",
+            "category": "Web Dev",
+            "format": "Markdown",
+            "difficulty": "Intermediate",
+            "pages": 6,
+            "downloads": 6200,
+            "xp": 60,
+            "author": "Priya Nair",
+            "date": "15 Jan 2025",
+            "emoji": "⚛️",
+            "grad": "from-cyan-500/20 to-blue-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/notes/react-hooks-reference",
+            "tags": [
+                "React",
+                "Hooks",
+                "Reference"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Big-O Complexity Cheatsheet",
+            "desc": "Time and space complexity of every common algorithm and data structure — arrays, trees, sorting, searching.",
+            "category": "DSA",
+            "format": "Cheatsheet",
+            "difficulty": "Beginner",
+            "pages": 2,
+            "downloads": 12500,
+            "xp": 50,
+            "author": "Karthik Rao",
+            "date": "20 Jan 2025",
+            "emoji": "📊",
+            "grad": "from-purple-500/20 to-pink-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/notes/big-o-cheatsheet",
+            "tags": [
+                "DSA",
+                "Complexity",
+                "Algorithms"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Docker Commands Reference",
+            "desc": "Every essential Docker command — images, containers, volumes, networks, compose — with flags and real examples.",
+            "category": "DevOps",
+            "format": "Cheatsheet",
+            "difficulty": "Beginner",
+            "pages": 3,
+            "downloads": 5800,
+            "xp": 50,
+            "author": "Arjun Mehta",
+            "date": "25 Jan 2025",
+            "emoji": "🐳",
+            "grad": "from-sky-500/20 to-blue-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/notes/docker-commands",
+            "tags": [
+                "Docker",
+                "DevOps",
+                "CLI"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "CSS Flexbox & Grid Quick Reference",
+            "desc": "Every flexbox and grid property on one page — with visual diagrams for alignment, justify, wrap and gap.",
+            "category": "Web Dev",
+            "format": "Cheatsheet",
+            "difficulty": "Beginner",
+            "pages": 2,
+            "downloads": 9100,
+            "xp": 50,
+            "author": "Deepika Joshi",
+            "date": "1 Feb 2025",
+            "emoji": "🎨",
+            "grad": "from-pink-500/20 to-rose-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/notes/css-flexbox-grid",
+            "tags": [
+                "CSS",
+                "Flexbox",
+                "Grid"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "SQL Query Cheatsheet",
+            "desc": "SELECT, JOIN, GROUP BY, HAVING, subqueries, window functions and indexes — all in one concise reference.",
+            "category": "Database",
+            "format": "Cheatsheet",
+            "difficulty": "Intermediate",
+            "pages": 3,
+            "downloads": 7300,
+            "xp": 55,
+            "author": "Suresh Menon",
+            "date": "8 Feb 2025",
+            "emoji": "🗃️",
+            "grad": "from-amber-500/20 to-yellow-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/notes/sql-cheatsheet",
+            "tags": [
+                "SQL",
+                "Database",
+                "Queries"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Graph Algorithms Study Notes",
+            "desc": "BFS, DFS, Dijkstra, Bellman-Ford, Floyd-Warshall, Prim's, Kruskal's — with pseudocode and complexity analysis.",
+            "category": "DSA",
+            "format": "PDF",
+            "difficulty": "Advanced",
+            "pages": 12,
+            "downloads": 4600,
+            "xp": 80,
+            "author": "Siddharth Bhat",
+            "date": "14 Feb 2025",
+            "emoji": "🕸️",
+            "grad": "from-indigo-500/20 to-violet-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/notes/graph-algorithms",
+            "tags": [
+                "DSA",
+                "Graphs",
+                "Algorithms"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Python for Data Science Cheatsheet",
+            "desc": "NumPy, Pandas, Matplotlib and scikit-learn — the most used functions and methods with one-line examples.",
+            "category": "AI/ML",
+            "format": "Cheatsheet",
+            "difficulty": "Intermediate",
+            "pages": 5,
+            "downloads": 10200,
+            "xp": 60,
+            "author": "Dr. Ananya Sharma",
+            "date": "20 Feb 2025",
+            "emoji": "🐍",
+            "grad": "from-green-500/20 to-teal-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/notes/python-data-science",
+            "tags": [
+                "Python",
+                "Pandas",
+                "NumPy"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Git Commands Complete Reference",
+            "desc": "init, clone, add, commit, push, pull, branch, merge, rebase, stash — every git command with flags explained.",
+            "category": "DevOps",
+            "format": "Cheatsheet",
+            "difficulty": "Beginner",
+            "pages": 3,
+            "downloads": 11800,
+            "xp": 50,
+            "author": "Vikram Das",
+            "date": "26 Feb 2025",
+            "emoji": "🌿",
+            "grad": "from-emerald-500/20 to-green-500/10",
+            "tagColor": "bg-green-100 dark:bg-green-500/10 text-green-700 dark:text-green-400",
+            "path": "/notes/git-reference",
+            "tags": [
+                "Git",
+                "Version Control",
+                "CLI"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "OWASP Top 10 Security Notes",
+            "desc": "Injection, broken auth, XSS, IDOR, security misconfiguration — each vulnerability explained with prevention techniques.",
+            "category": "Security",
+            "format": "PDF",
+            "difficulty": "Intermediate",
+            "pages": 8,
+            "downloads": 3900,
+            "xp": 70,
+            "author": "Nisha Kapoor",
+            "date": "5 Mar 2025",
+            "emoji": "🛡️",
+            "grad": "from-red-500/20 to-pink-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/notes/owasp-top-10",
+            "tags": [
+                "Security",
+                "OWASP",
+                "Web"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Dynamic Programming Patterns",
+            "desc": "15 DP patterns — knapsack, LCS, LIS, matrix chain, interval DP — with templates you can apply to any problem.",
+            "category": "DSA",
+            "format": "PDF",
+            "difficulty": "Advanced",
+            "pages": 14,
+            "downloads": 5500,
+            "xp": 80,
+            "author": "Karthik Rao",
+            "date": "12 Mar 2025",
+            "emoji": "♟️",
+            "grad": "from-violet-500/20 to-purple-500/10",
+            "tagColor": "bg-red-100 dark:bg-red-500/10 text-red-700 dark:text-red-400",
+            "path": "/notes/dp-patterns",
+            "tags": [
+                "DSA",
+                "Dynamic Programming"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "MongoDB Aggregation Pipeline Notes",
+            "desc": "$match, $group, $project, $lookup, $unwind — master the aggregation pipeline with real query examples.",
+            "category": "Database",
+            "format": "Markdown",
+            "difficulty": "Intermediate",
+            "pages": 7,
+            "downloads": 3100,
+            "xp": 65,
+            "author": "Rohan Gupta",
+            "date": "18 Mar 2025",
+            "emoji": "🍃",
+            "grad": "from-lime-500/20 to-green-500/10",
+            "tagColor": "bg-yellow-100 dark:bg-yellow-500/10 text-yellow-700 dark:text-yellow-400",
+            "path": "/notes/mongodb-aggregation",
+            "tags": [
+                "MongoDB",
+                "Database",
+                "NoSQL"
+            ]
+        }
+    ]
+}
