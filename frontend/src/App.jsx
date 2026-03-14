@@ -7,8 +7,8 @@ import Tutorials from "./pages/Tutorials";
 import Notes from "./pages/Notes";
 import Roadmaps from "./pages/Roadmaps";
 import Quiz from "./pages/Quiz";
-import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
+import Login from "./pages/auth/Login";
+import SignUp from "./pages/auth/SignUp";
 import Projects from "./pages/Projects";
 
 function App() {

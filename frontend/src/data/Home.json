@@ -205,10 +205,10 @@
             "🎖️ Rank Badges"
         ],
         "widget": {
-            "progressLabel": "Your Progress",
+            "progressLabel": "User Progress",
             "rank": "🏅 Gold II",
             "playerInitial": "U",
-            "playerName": "You",
+            "playerName": "User",
             "xpCurrent": 8450,
             "xpTotal": 10000,
             "xpPercent": 84.5,

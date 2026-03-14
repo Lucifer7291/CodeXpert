@@ -1,0 +1,1 @@
+// Settings for XP/COINS/site and many more 
